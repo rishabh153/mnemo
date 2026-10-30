@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Mnemo</title>
+  <meta name="description" content="Official Privacy Policy for Mnemo. Transparent explanation of our offline-first architecture, local SQLite database, Google Play billing, and data protection practices.">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .legal-content {
+      background: #FFFFFF;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-xl);
+      padding: clamp(2rem, 5vw, 4rem);
+      box-shadow: var(--shadow-sm);
+    }
+    .legal-content h2 {
+      font-size: 1.55rem;
+      margin-top: 2.25rem;
+      margin-bottom: 0.85rem;
+      color: var(--midnight);
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.5rem;
+    }
+    .legal-content h3 {
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: var(--primary);
+    }
+    .legal-content p, .legal-content ul {
+      margin-bottom: 1rem;
+      color: var(--text-secondary);
+      font-size: 1.02rem;
+      line-height: 1.7;
+    }
+    .legal-content ul {
+      padding-left: 1.5rem;
+    }
+    .legal-content li {
+      margin-bottom: 0.5rem;
+    }
+    .legal-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      padding: 1rem 1.5rem;
+      background: var(--bg-main);
+      border-radius: var(--radius-md);
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+    }
+    .legal-highlight {
+      background: rgba(102, 85, 217, 0.08);
+      border-left: 4px solid var(--primary);
+      padding: 1.25rem 1.5rem;
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      margin: 1.75rem 0;
+    }
+    .legal-highlight p {
+      color: var(--midnight);
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/images/logo.png" alt="Mnemo Logo">
+        <span>Mnemo</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="features.html" class="nav-link">Features</a></li>
+          <li><a href="privacy.html" class="nav-link">Privacy & Freedom</a></li>
+          <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="faq.html" class="nav-link">FAQ & Support</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="index.html#launch" class="btn btn-primary btn-sm">Coming Soon</a>
+        <button class="nav-toggle" aria-label="Toggle Navigation">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav">
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="features.html" class="mobile-nav-link">Features</a></li>
+      <li><a href="privacy.html" class="mobile-nav-link">Privacy & Freedom</a></li>
+      <li><a href="pricing.html" class="mobile-nav-link">Pricing</a></li>
+      <li><a href="about.html" class="mobile-nav-link">About</a></li>
+      <li><a href="faq.html" class="mobile-nav-link">FAQ & Support</a></li>
+      <li><a href="privacy-policy.html" class="mobile-nav-link active">Privacy Policy</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="section">
+      <div class="container" style="max-width: 860px;">
+        <div class="legal-content">
+          <div class="badge">
+            <span>Verified Policy Draft</span>
+          </div>
+          <h1 style="font-size: clamp(2rem, 4vw, 2.75rem); margin-bottom: 0.5rem;">Privacy Policy for Mnemo</h1>
+
+          <div class="legal-meta">
+            <div><strong>Application:</strong> Mnemo (Android)</div>
+            <div><strong>Contact:</strong> rish.jobsearch@gmail.com</div>
+            <div><strong>Last Updated:</strong> October 2026</div>
+          </div>
+
+          <div class="legal-highlight">
+            <p><strong>Executive Summary:</strong> Mnemo is an offline-first, sovereign personal knowledge application. Your notes, titles, Markdown text, photo notes, and precision drawings are stored 100% locally on your device. We do not sell, scrape, or transmit your private content.</p>
+          </div>
+
+          <h2>1. Information We Do Not Collect</h2>
+          <p>Mnemo is architected around complete user privacy and local-first boundaries:</p>
+          <ul>
+            <li><strong>No Cloud Accounts Required:</strong> You do not need to register with an email address or password to write and organize notes.</li>
+            <li><strong>Zero Content Tracking:</strong> Your notes, folders, tags, Markdown documents, photos, drawings, and local search embeddings remain exclusively on your phone's private SQLite sandbox.</li>
+            <li><strong>No Content Transmission:</strong> We do not operate proprietary cloud servers that upload, parse, or train machine learning algorithms on your written thoughts.</li>
+          </ul>
+
+          <h2>2. Third-Party Services & Google Play Integration</h2>
+          <p>To deliver in-app subscription management and advertising monetization, Mnemo integrates standard Google Play developer SDKs:</p>
+
+          <h3>Google Play In-App Billing</h3>
+          <p>
+            When you purchase a Premium subscription (Monthly, Quarterly, 6-Month, Annual, or Lifetime), transactions are processed directly by Google LLC via Google Play Billing. We never receive or store your credit card information, bank accounts, or billing addresses. Transactions are governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color: var(--primary); text-decoration: underline;">Google Privacy Policy</a>.
+          </p>
+
+          <h3>Google Mobile Ads (AdMob)</h3>
+          <p>
+            During introductory free periods, Mnemo may display non-personalized or personalized advertisements served by Google AdMob. Google AdMob may process device identifiers, general device type, and crash diagnostics to prevent fraudulent clicks and monitor ad delivery. You can opt out of personalized ad targeting at any time in your Android device settings (<em>Settings &gt; Google &gt; Ads</em>). Upgrading to any Premium plan permanently turns off all advertisements.
+          </p>
+
+          <h2>3. AI Architecture & Clear Distinctions</h2>
+          <p>Mnemo features two distinct AI paradigms:</p>
+          <ul>
+            <li><strong>Optional On-Device Language Model:</strong> On supported devices with hardware compatibility, machine intelligence runs directly on your smartphone's chipset without transmitting text to external servers.</li>
+            <li><strong>Connected AI Queries:</strong> Certain advanced semantic query features (in Ask and Memory) communicate with verified secure inference endpoints solely when you trigger a query. Your input is processed transiently and is never used to train public models.</li>
+          </ul>
+
+          <h2>4. Android Device Permissions</h2>
+          <p>Mnemo requests minimal permissions only when you explicitly invoke specific tools:</p>
+          <ul>
+            <li><strong>Camera (<code>android.permission.CAMERA</code>):</strong> Used only when you choose to capture a picture for a Photo Note. Captured images are saved locally to your device.</li>
+            <li><strong>Media / Photos:</strong> Used only when you manually pick an image from your device gallery to attach to a note.</li>
+            <li><strong>Internet Access:</strong> Required strictly to verify Google Play license receipts and render connected queries when requested. Note contents are never uploaded passively.</li>
+          </ul>
+
+          <h2>5. Data Storage, Retention & Deletion</h2>
+          <p>
+            Because your database lives in your device's sandboxed storage, you possess absolute authority over deletion:
+          </p>
+          <ul>
+            <li><strong>Instant Note Purge:</strong> Deleting a note in Mnemo immediately purges it from your local SQLite database.</li>
+            <li><strong>Complete Erasure:</strong> Clearing app storage in Android settings or uninstalling Mnemo permanently erases all local data. We strongly advise using the built-in Export feature regularly to maintain offline backups.</li>
+          </ul>
+
+          <h2>6. Contact Us</h2>
+          <p>If you have any questions or require clarification regarding this policy, please email:</p>
+          <p>
+            <strong>Mnemo Team</strong><br>
+            Email: <a href="mailto:rish.jobsearch@gmail.com" style="color: var(--primary); font-weight: 600;">rish.jobsearch@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assets/images/logo.png" alt="Mnemo Logo">
+            <span>Mnemo</span>
+          </div>
+          <p class="footer-desc">
+            Your notes. Your rules. Your intelligence. A sovereign workspace designed to think, write and organise.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="features.html" class="footer-link">Features</a></li>
+            <li><a href="privacy.html" class="footer-link">Privacy & Freedom</a></li>
+            <li><a href="pricing.html" class="footer-link">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">About & Help</h4>
+          <ul class="footer-links">
+            <li><a href="about.html" class="footer-link">About Mnemo</a></li>
+            <li><a href="faq.html" class="footer-link">FAQ & Support</a></li>
+            <li><a href="privacy-policy.html" class="footer-link">Privacy Policy</a></li>
+            <li><a href="mailto:rish.jobsearch@gmail.com" class="footer-link">Email Support</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Support</h4>
+          <p style="font-size: 0.9rem; color: var(--midnight-muted);">
+            Direct questions to:<br>
+            <a href="mailto:rish.jobsearch@gmail.com" style="color: #B5A8F8; text-decoration: underline;">rish.jobsearch@gmail.com</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Mnemo. All rights reserved.</div>
+        <div><a href="privacy-policy.html" class="footer-link">Privacy Policy</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
